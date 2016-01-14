@@ -14,6 +14,8 @@
 		8378AF9D1C47F7DE00881B27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8378AF9B1C47F7DE00881B27 /* LaunchScreen.storyboard */; };
 		8378AFA81C47F7DF00881B27 /* GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8378AFA71C47F7DF00881B27 /* GameTests.swift */; };
 		8378AFB31C47F7DF00881B27 /* GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8378AFB21C47F7DF00881B27 /* GameUITests.swift */; };
+		8378AFC11C47F8BB00881B27 /* Charecter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8378AFC01C47F8BB00881B27 /* Charecter.swift */; };
+		8378AFC31C48208E00881B27 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8378AFC21C48208E00881B27 /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		8378AFAE1C47F7DF00881B27 /* GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8378AFB21C47F7DF00881B27 /* GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameUITests.swift; sourceTree = "<group>"; };
 		8378AFB41C47F7DF00881B27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8378AFC01C47F8BB00881B27 /* Charecter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Charecter.swift; sourceTree = "<group>"; };
+		8378AFC21C48208E00881B27 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				8378AF991C47F7DE00881B27 /* Assets.xcassets */,
 				8378AF9B1C47F7DE00881B27 /* LaunchScreen.storyboard */,
 				8378AF9E1C47F7DE00881B27 /* Info.plist */,
+				8378AFC01C47F8BB00881B27 /* Charecter.swift */,
+				8378AFC21C48208E00881B27 /* Player.swift */,
 			);
 			path = Game;
 			sourceTree = "<group>";
@@ -256,6 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8378AFC31C48208E00881B27 /* Player.swift in Sources */,
+				8378AFC11C47F8BB00881B27 /* Charecter.swift in Sources */,
 				8378AF951C47F7DE00881B27 /* ViewController.swift in Sources */,
 				8378AF931C47F7DE00881B27 /* AppDelegate.swift in Sources */,
 			);
