@@ -16,6 +16,9 @@
 		8378AFB31C47F7DF00881B27 /* GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8378AFB21C47F7DF00881B27 /* GameUITests.swift */; };
 		8378AFC11C47F8BB00881B27 /* Charecter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8378AFC01C47F8BB00881B27 /* Charecter.swift */; };
 		8378AFC31C48208E00881B27 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8378AFC21C48208E00881B27 /* Player.swift */; };
+		837F92ED1C4965E40025F516 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837F92EC1C4965E40025F516 /* Enemy.swift */; };
+		837F92EF1C49716A0025F516 /* Kimara.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837F92EE1C49716A0025F516 /* Kimara.swift */; };
+		837F92F11C4973120025F516 /* DevilWizard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837F92F01C4973120025F516 /* DevilWizard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		8378AFB41C47F7DF00881B27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8378AFC01C47F8BB00881B27 /* Charecter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Charecter.swift; sourceTree = "<group>"; };
 		8378AFC21C48208E00881B27 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		837F92EC1C4965E40025F516 /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		837F92EE1C49716A0025F516 /* Kimara.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kimara.swift; sourceTree = "<group>"; };
+		837F92F01C4973120025F516 /* DevilWizard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevilWizard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +114,9 @@
 				8378AF9B1C47F7DE00881B27 /* LaunchScreen.storyboard */,
 				8378AF9E1C47F7DE00881B27 /* Info.plist */,
 				8378AFC01C47F8BB00881B27 /* Charecter.swift */,
+				837F92EC1C4965E40025F516 /* Enemy.swift */,
+				837F92EE1C49716A0025F516 /* Kimara.swift */,
+				837F92F01C4973120025F516 /* DevilWizard.swift */,
 				8378AFC21C48208E00881B27 /* Player.swift */,
 			);
 			path = Game;
@@ -263,6 +272,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8378AFC31C48208E00881B27 /* Player.swift in Sources */,
+				837F92ED1C4965E40025F516 /* Enemy.swift in Sources */,
+				837F92F11C4973120025F516 /* DevilWizard.swift in Sources */,
+				837F92EF1C49716A0025F516 /* Kimara.swift in Sources */,
 				8378AFC11C47F8BB00881B27 /* Charecter.swift in Sources */,
 				8378AF951C47F7DE00881B27 /* ViewController.swift in Sources */,
 				8378AF931C47F7DE00881B27 /* AppDelegate.swift in Sources */,
@@ -492,6 +504,7 @@
 				8378AFB91C47F7DF00881B27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8378AFBA1C47F7DF00881B27 /* Build configuration list for PBXNativeTarget "GameTests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +513,7 @@
 				8378AFBC1C47F7DF00881B27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8378AFBD1C47F7DF00881B27 /* Build configuration list for PBXNativeTarget "GameUITests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +522,7 @@
 				8378AFBF1C47F7DF00881B27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
